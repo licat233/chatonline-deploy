@@ -1,0 +1,5 @@
+# 公共的 nginx http块内设置
+
+client_max_body_size 100m; # 限制上传文件的大小
+
+include /etc/nginx/conf.d/extend/*;
