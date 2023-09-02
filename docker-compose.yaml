@@ -26,6 +26,7 @@ services:
       - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
       - TS_AVATAR_DEFAULTBASEURL=https://img.alicdn.com/imgextra/i2/917298378/O1CN010hGXaf2BlAzexJ8cM_!!917298378.png
       - TS_PROJECT_NAME=${PROJECT_NAME}
+      - TS_DEFAULT_AVATAR=https://img.alicdn.com/imgextra/i3/917298378/O1CN01aqb6bh2BlB72JIKj1_!!917298378.jpg
     depends_on:
       - redis
       - mysql
