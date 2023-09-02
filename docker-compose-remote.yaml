@@ -2,13 +2,10 @@ version: "3.1"
 services:
   server:
     image: licat/chatonline-server:latest
-    # image: licat/modd:latest # dev env
     hostname: server
     container_name: ${COMPOSE_PROJECT_NAME}_server
     restart: always
-    # working_dir: /app
     command: "api"
-    # command: "modd -f /root/modd.conf"
     healthcheck:
       test: "wget -q -Y off -O /dev/null http://localhost:8090/v1/ping > /dev/null 2>&1"
       interval: 10s
@@ -35,16 +32,11 @@ services:
     ports:
       - 6001:8090
     volumes:
-    #   - go_volume:/go:rw
-    #   - ./modd/modd.conf:/root/modd.conf
-    #   - ./../server:/app
       - ./server/data:/home/tsdddata
-    #   - ./server/config/tsdd.yaml:/app/configs/tsdd.yaml
       - ./server/config/tsdd.yaml:/home/configs/tsdd.yaml
 
   wukongim: # 悟空IM通讯服务
     image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
-    # image: licat/wukongim:latest
     hostname: wukongim
     container_name: ${COMPOSE_PROJECT_NAME}_wukongim
     restart: on-failure
@@ -73,22 +65,22 @@ services:
       - im_volume:/root/wukongim/data
 
   web:
-     image: licat/chatonline-web:latest
-     hostname: web
-     container_name: ${COMPOSE_PROJECT_NAME}_web
-     restart: always
-     environment:
-       - API_URL
-       - EXTERNAL_IP
-     expose:
-       - 80 # Web端口
-     ports:
-       - 6003:3000
-     volumes:
-        - ./web/config.js:/usr/share/nginx/html/config.js
+    image: licat/chatonline-web:latest
+    hostname: web
+    container_name: ${COMPOSE_PROJECT_NAME}_web
+    restart: always
+    environment:
+      - API_URL
+      - EXTERNAL_IP
+    expose:
+      - 80 # Web端口
+    ports:
+      - 6003:80
+    volumes:
+      - ./web/config.js:/usr/share/nginx/html/config.js
 
   admin:
-    # image: licat/${COMPOSE_PROJECT_NAME}/admin:latest
+    # image: licat/${COMPOSE_PROJECT_NAME}-admin:latest
     image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
     hostname: admin
@@ -99,8 +91,6 @@ services:
       - IS_CONFIG=false
     ports:
       - 6004:80
-    # networks:
-    #   - backend_network
 
   minio: # minio文件管理服务
     image: minio/minio:latest # use a remote image
@@ -110,7 +100,7 @@ services:
       - 9000 # minio 文件服务端口
       - 9001 # minio 服务的管理接口
     command: "server /data --console-address ':9001'"
-    ports:
+    # ports:
     #   - "9000:9000" # minio 文件服务端口
     #   - 6005:9001 # minio 服务的管理接口
     environment:
