@@ -1,8 +1,7 @@
-# generator time: 2023-08-22
+# generator time: 2023-09-05
 
 server {
     listen 80;
-    listen 443;
     server_name admin.${DOMAIN};
     index index.php index.html index.htm default.php default.htm default.html;
     root /www/common;

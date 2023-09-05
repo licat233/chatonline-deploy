@@ -2,7 +2,6 @@
 
 server {
     listen 80;
-    listen 443;
     server_name __NAME__.${DOMAIN};
     index index.php index.html index.htm default.php default.htm default.html;
     root /www/common;

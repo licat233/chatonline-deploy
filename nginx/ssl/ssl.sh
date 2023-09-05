@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 本地调试时才使用，上线后请使用机构颁发的证书
+
 #进入monitor mode
 set -m
 

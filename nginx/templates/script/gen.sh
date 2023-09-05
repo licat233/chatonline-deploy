@@ -2,6 +2,7 @@
 
 #进入monitor mode
 set -m
+set -e
 
 current_path=$(
     cd $(dirname $0)
@@ -11,26 +12,26 @@ current_path=$(
 cd $current_path
 cd ..
 
-domain="chat233.cc"
+# domain="chat.catli.net"
 rewrite_file="vhost/dev.conf.template"
 
 # 注意：macOS中 bash3.2不支持关联数组，需要升级到bash4+，但不建议这样做，因为Apple仍将版本3作为系统外壳提供
 # 故采取此方案
 
-web_port=$WEB_PORT
+# web_port=$WEB_PORT
 
-if [ ! -n "$web_port" ]; then
-  web_port=80
-fi
+# if [ ! -n "$web_port" ]; then
+#   web_port=80
+# fi
 
 # 服务名，服务地址
 weblist=(
     "mysql,mysql_manage:80"
     "redis,redis_manage:80"
     "admin,admin:80"
-    "web,web:$web_port"
-    # "imtcp,wukongim:5100"
-    # "imws,wukongim:5200"
+    "web,web:80"
+    # "imtcp,wukongim:5100" # 不能经过反代
+    # "imws,wukongim:5200"  # 不能经过反代
     "imui,wukongim:5300"
     "api,server:8090"
 )
@@ -76,14 +77,19 @@ replace() {
     file=$1
     oldstr=$2
     newstr=$3
-    # macOS环境中需要传入一个文件做备份，这里传入""就行
-    sed -i "" "s/${oldstr}/${newstr}/g" $file
-    if [ $? -ne 0 ]; then
+
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        sed -i "" "s/${oldstr}/${newstr}/g" $file
+    else
         sed -i "s/${oldstr}/${newstr}/g" $file
     fi
+
+    set +e  # 恢复正常操作
+
     if [ $? -ne 0 ]; then
         recover $file
-        echo "panic:replace error,file=${file},oldstr=${oldstr},newstr=${newstr}"
+        echo "Error: Failed to replace string in file: $file"
+        echo "Details: file=$file, oldstr=$oldstr, newstr=$newstr"
         exit 1
     fi
 }

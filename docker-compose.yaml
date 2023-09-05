@@ -1,52 +1,51 @@
 version: "3.1"
 services:
   server:
-    # image: licat/${COMPOSE_PROJECT_NAME}-server:latest
-    image: licat/modd:latest # dev env
+    image: licat/chatonline-server:latest
     hostname: server
     container_name: ${COMPOSE_PROJECT_NAME}_server
-    restart: on-failure
-    working_dir: /app
-    # command: "api"
-    command: "modd -f /root/modd.conf"
+    restart: always
+    command: "api"
     healthcheck:
       test: "wget -q -Y off -O /dev/null http://localhost:8090/v1/ping > /dev/null 2>&1"
       interval: 10s
       timeout: 10s
       retries: 3
     environment:
-      - TS_MODE=${TS_MODE}
+      - TS_MODE
+      - TS_ADMINPWD
+      - TS_SMSCODE
+      - TS_FILESERVICE
+      - TS_APPNAME=${PROJECT_NAME}
       - TS_WUKONGIM_APIURL=http://wukongim:5001
       - TS_DB_MYSQLADDR=root:${MYSQL_ROOT_PASSWORD}@tcp(mysql)/${MYSQL_DATABASE}?charset=utf8mb4&parseTime=true&loc=Local
       - TS_DB_REDISADDR=redis:6379
       - TS_EXTERNAL_IP=${EXTERNAL_IP}
-      - TS_SMSCODE=${TS_SMSCODE}
-      - TS_FILESERVICE=${TS_FILESERVICE}
+      - TS_EXTERNAL_BASEURL=${API_URL}
+      - TS_EXTERNAL_WEBLOGINURL=${WEB_URL}
+      - TS_MINIO_URL=${MINIO_SERVER_URL}
       - TS_MINIO_ACCESSKEYID=${MINIO_ROOT_USER}
       - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
-      - TS_AVATAR_DEFAULTBASEURL=https://img.alicdn.com/imgextra/i2/917298378/O1CN010hGXaf2BlAzexJ8cM_!!917298378.png
-      - TS_PROJECT_NAME=${PROJECT_NAME}
-      - TS_DEFAULT_AVATAR=https://img.alicdn.com/imgextra/i3/917298378/O1CN01aqb6bh2BlB72JIKj1_!!917298378.jpg
+      - TS_AVATAR_DEFAULT=https://img.alicdn.com/imgextra/i3/917298378/O1CN01aqb6bh2BlB72JIKj1_!!917298378.jpg
+      - TS_OSS_BUCKETNAME=${OSS_BUCKETNAME}
+      - TS_OSS_ENDPOINT=${OSS_ENDPOINT}
+      - TS_OSS_BUCKETURL=${OSS_BUCKETURL}
+      - TS_OSS_ACCESSKEYID=${OSS_ACCESSKEYID}
+      - TS_OSS_ACCESSKEYSECRET=${OSS_ACCESSKEYSECRET}
     depends_on:
       - redis
       - mysql
       - wukongim
     expose:
       - 8090
-    ports:
-      - 8090:8090
+    # ports:
+    #   - 6001:8090
     volumes:
-      - go_volume:/go:rw
-      - ./modd/modd.conf:/root/modd.conf
-      - ./../server:/app
       - ./server/data:/home/tsdddata
-      - ./server/config/tsdd.yaml:/app/configs/tsdd.yaml
-    # networks:
-    #   - backend_network
+      - ./server/config/tsdd.yaml:/home/configs/tsdd.yaml
 
   wukongim: # 悟空IM通讯服务
-    # image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
-    image: licat/wukongim:latest
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
     hostname: wukongim
     container_name: ${COMPOSE_PROJECT_NAME}_wukongim
     restart: on-failure
@@ -58,62 +57,43 @@ services:
       - WK_DATASOURCE_ADDR=http://server:8090/v1/datasource
       - WK_DATASOURCE_CHANNELINFOON=true
       - WK_TOKENAUTHON=true
+      - WK_EXTERNAL_TCPADDR
+      - WK_EXTERNAL_WSADDR
+      - WK_EXTERNAL_WSSADDR
     expose:
       - 5001
       - 5100
       - 5200
       - 5300
     ports:
-      - "5100:5100" # tcp长连接端口（外网开放）
-      - "5200:5200" # websocket端口（外网开放）
-      - "5300:5300" # 系统监控UI端口
+      - ${IM_TCP_PORT}:5100 # tcp长连接端口（外网开放）
+      - ${IM_WS_PORT}:5200 # websocket端口（外网开放）
+    #   - "6002:5300" # 系统监控UI端口
     # - "5172:5172" # demo端口
     # - "5001:5001" # api端口 （业务端调用，仅限内网开放）
     volumes:
-      - ./wukongim:/root/wukongim
+      - ./wukongim/logs:/root/wukongim/logs
+      - ./wukongim/wk.yaml:/root/wukongim/wk.yaml
       - im_volume:/root/wukongim/data
-    # networks:
-    #   - backend_network
-
-  # web:
-  #   image: licat/chatonline/web:latest
-  #   hostname: web
-  #   container_name: ${COMPOSE_PROJECT_NAME}_web
-  #   restart: always
-  #   environment:
-  #     - API_URL
-  #     - EXTERNAL_IP
-  #   expose:
-  #     - 80 # Web端口
-  #   networks:
-  #     - backend_network
 
   web:
-    image: node:16.13.0
+    image: licat/chatonline-web:latest
     hostname: web
     container_name: ${COMPOSE_PROJECT_NAME}_web
-    restart: on-failure
-    working_dir: /app
-    command: "yarn dev"
+    restart: always
     environment:
       - API_URL
       - EXTERNAL_IP
-      - WEB_PORT
-    ports:
-      - 82:3000
+    expose:
+      - 80 # Web端口
+    # ports:
+    #   - 6003:80
     volumes:
-      - node_volume:/app/node_modules
-      - ./../web:/app
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000"]
-      interval: 30s
-      timeout: 20s
-      retries: 3
-    # networks:
-    #   - backend_network
+      - ./web/config.js:/usr/share/nginx/html/config.js
 
   admin:
-    image: licat/${COMPOSE_PROJECT_NAME}/admin:latest
+    # image: licat/${COMPOSE_PROJECT_NAME}-admin:latest
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
     hostname: admin
     container_name: ${COMPOSE_PROJECT_NAME}_admin
@@ -121,36 +101,34 @@ services:
       - API_URL
       - APP_ENV=dev
       - IS_CONFIG=false
-    ports:
-      - 6002:80
-    # networks:
-    #   - backend_network
-
-  minio: # minio文件管理服务
-    image: minio/minio:latest # use a remote image
-    hostname: minio
-    container_name: ${COMPOSE_PROJECT_NAME}_minio
     expose:
-      - 9000 # minio 文件服务端口
-      - 9001 # minio 服务的管理接口
-    command: "server /data --console-address ':9001'"
-    ports:
-      - "9000:9000" # minio 文件服务端口
-      - "9001:9001" # minio 服务的管理接口
-    environment:
-      - MINIO_ROOT_USER
-      - MINIO_ROOT_PASSWORD
-      - MINIO_SERVER_URL
-      - MINIO_BROWSER_REDIRECT_URL
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
-      interval: 30s
-      timeout: 20s
-      retries: 3
-    volumes:
-      - minio_volume:/data:rw
-    # networks:
-    #   - backend_network
+      - 80
+    # ports:
+    #   - 6004:80
+
+#   minio: # minio文件管理服务
+#     image: minio/minio:latest # use a remote image
+#     hostname: minio
+#     container_name: ${COMPOSE_PROJECT_NAME}_minio
+#     expose:
+#       - 9000 # minio 文件服务端口
+#       - 9001 # minio 服务的管理接口
+#     command: "server /data --console-address ':9001'"
+#     ports:
+#       - 6005:9000 # minio 文件服务端口
+#       - 6006:9001 # minio 服务的管理接口
+#     environment:
+#       - MINIO_ROOT_USER
+#       - MINIO_ROOT_PASSWORD
+#       - MINIO_SERVER_URL
+#       - MINIO_BROWSER_REDIRECT_URL
+#     healthcheck:
+#       test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+#       interval: 30s
+#       timeout: 20s
+#       retries: 3
+#     volumes:
+#       - minio_volume:/data:rw
 
   mysql: # mysql数据库
     image: mysql:latest
@@ -167,8 +145,6 @@ services:
       - 3306
     volumes:
       - mysql_volume:/var/lib/mysql
-    # networks:
-    #   - backend_network
 
   redis: # redis
     image: redis
@@ -184,8 +160,6 @@ services:
       retries: 30
     volumes:
       - redis_volume:/data:rw
-    # networks:
-    #   - backend_network
 
   mysql_manage: #phpmyadmin
     image: phpmyadmin:latest
@@ -195,8 +169,8 @@ services:
     expose:
       - 80
       - 8080
-    ports:
-      - 6003:80
+    # ports:
+    #   - 6007:80
     environment:
       - TZ=${TZ}
       - PMA_ARBITRARY=1 #当设置为 1 连接到任意服务器将被允许
@@ -210,8 +184,6 @@ services:
       - PMA_CONTROLPASS=123456
     depends_on:
       - mysql
-    # networks:
-    #   - backend_network
 
   redis_manage: #phpredisadmin
     image: erikdubbelboer/phpredisadmin:latest
@@ -220,8 +192,8 @@ services:
     restart: on-failure
     expose:
       - 80
-    ports:
-      - 6004:80
+    # ports:
+    #   - 6008:80
     environment:
       - TZ=${TZ}
       - REDIS_1_HOST=redis
@@ -230,40 +202,37 @@ services:
       # - ADMIN_PASS=${REDIS_MANAGE_PASSWORD} # Redis 可视化管理用户密码
     depends_on:
       - redis
-    # networks:
-    #   - backend_network
 
   # Nginx服务
-  # nginx:
-  #   image: nginx:latest
-  #   hostname: nginx
-  #   container_name: ${COMPOSE_PROJECT_NAME}_nginx
-  #   restart: always
-  #   privileged: true
-  #   environment:
-  #     - TZ=${TZ}
-  #     - DOMAIN=${DOMAIN}
-  #     - WEB_PORT
-  #   ports:
-  #     - ${NGINX_HTTP_PORT}:80
-  #     - ${NGINX_HTTPS_PORT}:443
-  #   volumes:
-  #     - ./nginx/templates:/etc/nginx/templates
-  #     - ./nginx/conf.d:/etc/nginx/conf.d
-  #     - ./nginx/ssl:/etc/nginx/ssl
-  #     - ./nginx/www:/www
-  #     - nginx_volume:/var/log/nginx
-  #   # networks:
-  #   #   - backend_network
-  #   depends_on:
-  #     - admin
-  #     - server
-  #     - wukongim
-  #     - web
-
-# networks:
-#   backend_network:
-#     driver: bridge
+  nginx:
+     image: nginx:latest
+     hostname: nginx
+     container_name: ${COMPOSE_PROJECT_NAME}_nginx
+     restart: always
+     privileged: true
+     environment:
+      - TZ
+      - DOMAIN
+      - WEB_PORT
+      - IM_TCP_PORT
+      - IM_WS_PORT
+      - NGINX_USERNAME
+      - NGINX_PASSWORD
+     ports:
+      - ${NGINX_HTTP_PORT}:80
+     volumes:
+      - ./nginx/templates:/etc/nginx/templates
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
+      - ./nginx/www:/www
+      - nginx_volume:/var/log/nginx
+     depends_on:
+      - admin
+      - server
+      - wukongim
+      - web
+      - mysql_manage
+      - redis_manage
 
 # 数据卷
 volumes:
