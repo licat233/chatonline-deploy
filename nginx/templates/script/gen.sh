@@ -12,7 +12,7 @@ current_path=$(
 cd $current_path
 cd ..
 
-# domain="chat.catli.net"
+# domain="chat.mixbench.net"
 rewrite_file="vhost/dev.conf.template"
 
 # 注意：macOS中 bash3.2不支持关联数组，需要升级到bash4+，但不建议这样做，因为Apple仍将版本3作为系统外壳提供

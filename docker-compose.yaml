@@ -91,10 +91,6 @@ services:
       - API_URL
     expose:
       - 80 # Web端口
-    # ports:
-    #   - 6003:80
-    volumes:
-      - ./web/config.js:/usr/share/nginx/html/config.js
 
   admin:
     # image: licat/${COMPOSE_PROJECT_NAME}-admin:latest
