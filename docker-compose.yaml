@@ -2,6 +2,9 @@ version: "3.1"
 services:
   server:
     image: licat/chatonline-server:latest
+    # build:
+    #   context: ./modd
+    #   dockerfile: Dockerfile
     hostname: server
     container_name: ${COMPOSE_PROJECT_NAME}_server
     restart: always
@@ -43,6 +46,9 @@ services:
     volumes:
       - ./server/data:/home/tsdddata
       - ./server/config/tsdd.yaml:/home/configs/tsdd.yaml
+      - go_volume:/go:rw
+      - ./modd/modd.conf:/root/modd.conf
+      - ./../server:/app
 
   wukongim: # 悟空IM通讯服务
     image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
@@ -83,7 +89,6 @@ services:
     restart: always
     environment:
       - API_URL
-      - EXTERNAL_IP
     expose:
       - 80 # Web端口
     # ports:
