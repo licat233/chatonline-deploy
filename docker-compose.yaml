@@ -29,7 +29,7 @@ services:
       - TS_MINIO_URL=${MINIO_SERVER_URL}
       - TS_MINIO_ACCESSKEYID=${MINIO_ROOT_USER}
       - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
-      - TS_AVATAR_DEFAULT=https://img.alicdn.com/imgextra/i3/917298378/O1CN01aqb6bh2BlB72JIKj1_!!917298378.jpg
+      - TS_AVATAR_DEFAULTBASEURL=https://img.alicdn.com/imgextra/i1/917298378/O1CN01MSlZZ12BlB7Yie0qb_!!917298378.png
       - TS_OSS_BUCKETNAME=${OSS_BUCKETNAME}
       - TS_OSS_ENDPOINT=${OSS_ENDPOINT}
       - TS_OSS_BUCKETURL=${OSS_BUCKETURL}
@@ -148,7 +148,7 @@ services:
       - mysql_volume:/var/lib/mysql
 
   redis: # redis
-    image: redis
+    image: redis:alpine
     hostname: redis
     container_name: ${COMPOSE_PROJECT_NAME}_redis
     restart: on-failure
@@ -161,6 +161,7 @@ services:
       retries: 30
     volumes:
       - redis_volume:/data:rw
+
 
   mysql_manage: #phpmyadmin
     image: phpmyadmin:latest
