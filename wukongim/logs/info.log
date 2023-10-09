@@ -1501,3 +1501,1010 @@
 {"level":"debug","time":"2023-09-28 15:09:31","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
 {"level":"debug","time":"2023-09-28 15:09:31","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
 {"level":"debug","time":"2023-09-28 15:09:53","msg":"【Processor】ping","conn":"Conn[13] uid=03abe342839240208a1f22fe52809beb fd={23} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:10:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:10:50","msg":"【Processor】ping","conn":"Conn[13] uid=03abe342839240208a1f22fe52809beb fd={23} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:11:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:11:52","msg":"【Processor】ping","conn":"Conn[13] uid=03abe342839240208a1f22fe52809beb fd={23} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:12:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:12:50","msg":"【Processor】ping","conn":"Conn[13] uid=03abe342839240208a1f22fe52809beb fd={23} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:13:17","msg":"【ConversationManager】Save conversation","count":2}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【ReactorSub-3】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Dispatch】conn close for OnClose","conn":"Conn[13] uid=03abe342839240208a1f22fe52809beb fd={23} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Processor】conn is close","conn":"Conn[13] uid=03abe342839240208a1f22fe52809beb fd={23} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjowLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:13:27","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:13:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:14:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:15:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:16:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:17:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:19:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:20:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:20:46","msg":"【Server】Auth Success","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:20:46","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":16}
+{"level":"debug","time":"2023-09-28 15:20:46","msg":"【Processor】ping","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":9}
+{"level":"debug","time":"2023-09-28 15:20:47","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:20:48","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:20:48","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:21:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:21:50","msg":"【Processor】ping","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:22:00","msg":"【UserAPI】req","req":{"uid":"03abe342839240208a1f22fe52809beb","token":"2ca9c51d60bd469dab593619ffc73b0d","device_flag":1,"device_level":0}}
+{"level":"debug","time":"2023-09-28 15:22:01","msg":"【Server】Auth Success","conn":"Conn[17] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=d082f0cdcbf5eb6c852fadc0f0aee3edW"}
+{"level":"debug","time":"2023-09-28 15:22:01","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":17}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":3}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":3}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":10}
+{"level":"debug","time":"2023-09-28 15:22:03","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:22:04","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:22:04","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"03abe342839240208a1f22fe52809beb\",\"channel_type\":1,\"expire\":0,\"subscribers\":null,\"payload\":\"eyJjbWQiOiJzeW5jQ29udmVyc2F0aW9uRXh0cmEiLCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":3}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":3}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:22:06","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:22:12","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:22:12","msg":"【Dispatch】conn close for OnClose","conn":"Conn[17] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=d082f0cdcbf5eb6c852fadc0f0aee3edW"}
+{"level":"debug","time":"2023-09-28 15:22:12","msg":"【Processor】conn is close","conn":"Conn[17] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=d082f0cdcbf5eb6c852fadc0f0aee3edW"}
+{"level":"debug","time":"2023-09-28 15:22:12","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【Server】Auth Success","conn":"Conn[18] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=df82c0968834b00031968abb42787f4fW"}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":18}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":3}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":3}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":8}
+{"level":"debug","time":"2023-09-28 15:22:13","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:22:14","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:22:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-09-28 15:22:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:22:22","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:22:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[18] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=df82c0968834b00031968abb42787f4fW"}
+{"level":"debug","time":"2023-09-28 15:22:22","msg":"【Processor】conn is close","conn":"Conn[18] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=df82c0968834b00031968abb42787f4fW"}
+{"level":"debug","time":"2023-09-28 15:22:22","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【Server】Auth Success","conn":"Conn[19] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=b05c24934b387dfab8a30377331e262bW"}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":19}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":3}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":3}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":8}
+{"level":"debug","time":"2023-09-28 15:22:23","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:22:24","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:22:24","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-09-28 15:22:47","msg":"【Processor】ping","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:22:53","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:22:53","msg":"【Dispatch】conn close for OnClose","conn":"Conn[19] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=b05c24934b387dfab8a30377331e262bW"}
+{"level":"debug","time":"2023-09-28 15:22:53","msg":"【Processor】conn is close","conn":"Conn[19] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=b05c24934b387dfab8a30377331e262bW"}
+{"level":"debug","time":"2023-09-28 15:22:53","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:22:53","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:22:53","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:22:54","msg":"【Server】Auth Success","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:22:54","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":20}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":3}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":3}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 15:22:55","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:22:56","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:22:56","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:23:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:23:49","msg":"【Processor】ping","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:23:54","msg":"【Processor】ping","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【ReactorSub-3】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Dispatch】conn close for OnClose","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Processor】conn is close","conn":"Conn[16] uid=03abe342839240208a1f22fe52809beb fd={35} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjowLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":10}
+{"level":"debug","time":"2023-09-28 15:24:01","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:24:02","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:24:02","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:24:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:24:54","msg":"【Processor】ping","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:25:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:25:54","msg":"【Processor】ping","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:26:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:26:54","msg":"【Processor】ping","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:27:08","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:27:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:27:33","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:27:33","msg":"【Dispatch】conn close for OnClose","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:27:33","msg":"【Processor】conn is close","conn":"Conn[20] uid=03abe342839240208a1f22fe52809beb fd={49} deviceFlag=WEB deviceLevel=Slave deviceID=cbcb44742c8328dd233777e321db861dW"}
+{"level":"debug","time":"2023-09-28 15:27:33","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:27:33","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:27:33","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-09-28 15:27:34","msg":"【Server】Auth Success","conn":"Conn[21] uid=03abe342839240208a1f22fe52809beb fd={47} deviceFlag=WEB deviceLevel=Slave deviceID=c3bf0e6dc2c2590265f1658ea85ca9cbW"}
+{"level":"debug","time":"2023-09-28 15:27:34","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":21}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":2}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":2}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":11}
+{"level":"debug","time":"2023-09-28 15:27:35","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-09-28 15:27:36","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:27:36","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:28:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:28:35","msg":"【Processor】ping","conn":"Conn[21] uid=03abe342839240208a1f22fe52809beb fd={47} deviceFlag=WEB deviceLevel=Slave deviceID=c3bf0e6dc2c2590265f1658ea85ca9cbW"}
+{"level":"debug","time":"2023-09-28 15:29:35","msg":"【Processor】ping","conn":"Conn[21] uid=03abe342839240208a1f22fe52809beb fd={47} deviceFlag=WEB deviceLevel=Slave deviceID=c3bf0e6dc2c2590265f1658ea85ca9cbW"}
+{"level":"debug","time":"2023-09-28 15:30:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:30:26","msg":"【ReactorSub-3】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:30:26","msg":"【Dispatch】conn close for OnClose","conn":"Conn[21] uid=03abe342839240208a1f22fe52809beb fd={47} deviceFlag=WEB deviceLevel=Slave deviceID=c3bf0e6dc2c2590265f1658ea85ca9cbW"}
+{"level":"debug","time":"2023-09-28 15:30:26","msg":"【Processor】conn is close","conn":"Conn[21] uid=03abe342839240208a1f22fe52809beb fd={47} deviceFlag=WEB deviceLevel=Slave deviceID=c3bf0e6dc2c2590265f1658ea85ca9cbW"}
+{"level":"debug","time":"2023-09-28 15:30:26","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:30:27","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:30:27","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:30:28","msg":"【Server】Auth Success","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:30:28","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":22}
+{"level":"debug","time":"2023-09-28 15:30:29","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":2}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":2}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":12}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:30:30","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:31:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:31:28","msg":"【Processor】ping","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:32:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:32:29","msg":"【Processor】ping","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:32:48","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:32:48","msg":"【Dispatch】conn close for OnClose","conn":"Conn[23] uid= fd={53} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-28 15:32:48","msg":"【Processor】conn is close","conn":"Conn[23] uid= fd={53} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-28 15:32:53","msg":"【Server】Auth Success","conn":"Conn[24] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:32:53","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":24}
+{"level":"debug","time":"2023-09-28 15:32:53","msg":"【Processor】ping","conn":"Conn[24] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:32:53","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 15:32:53","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":8}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:32:54","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:32:55","msg":"【UserAPI】req","req":{"uid":"03abe342839240208a1f22fe52809beb","token":"2ca9c51d60bd469dab593619ffc73b0d","device_flag":1,"device_level":0}}
+{"level":"debug","time":"2023-09-28 15:32:56","msg":"【Server】Auth Success","conn":"Conn[25] uid=03abe342839240208a1f22fe52809beb fd={56} deviceFlag=WEB deviceLevel=Slave deviceID=d5c57aa40fa8313c9f94f02d4bfa60b9W"}
+{"level":"debug","time":"2023-09-28 15:32:56","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":25}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":4}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":4}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":10}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:32:58","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:33:10","msg":"【ReactorSub-0】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 15:33:10","msg":"【Dispatch】conn close for OnClose","conn":"Conn[25] uid=03abe342839240208a1f22fe52809beb fd={56} deviceFlag=WEB deviceLevel=Slave deviceID=d5c57aa40fa8313c9f94f02d4bfa60b9W"}
+{"level":"debug","time":"2023-09-28 15:33:10","msg":"【Processor】conn is close","conn":"Conn[25] uid=03abe342839240208a1f22fe52809beb fd={56} deviceFlag=WEB deviceLevel=Slave deviceID=d5c57aa40fa8313c9f94f02d4bfa60b9W"}
+{"level":"debug","time":"2023-09-28 15:33:10","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:33:12","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:33:12","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-09-28 15:33:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:33:29","msg":"【Processor】ping","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:33:56","msg":"【Processor】ping","conn":"Conn[24] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:34:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:34:29","msg":"【Processor】ping","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:34:41","msg":"【ReactorSub-2】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:34:41","msg":"【Dispatch】conn close for OnClose","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:34:41","msg":"【Processor】conn is close","conn":"Conn[22] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:34:41","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:34:42","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:34:42","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:34:43","msg":"【Server】Auth Success","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:34:43","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":26}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":3}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":3}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":8}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":5}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:34:44","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:34:47","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:34:53","msg":"【Processor】ping","conn":"Conn[24] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:34:59","msg":"【ReactorSub-1】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 15:34:59","msg":"【Dispatch】conn close for OnClose","conn":"Conn[24] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:34:59","msg":"【Processor】conn is close","conn":"Conn[24] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:34:59","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjowLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":8}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:35:00","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:35:09","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 15:35:09","msg":"【Dispatch】conn close for OnClose","conn":"Conn[27] uid= fd={53} deviceFlag=APP deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:35:09","msg":"【Processor】conn is close","conn":"Conn[27] uid= fd={53} deviceFlag=APP deviceLevel=Slave deviceID=5e8f0b51847b05c06ce8a8f2be642666W"}
+{"level":"debug","time":"2023-09-28 15:35:13","msg":"【Server】Auth Success","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:35:13","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":28}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Processor】ping","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:35:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:35:16","msg":"【UserAPI】req","req":{"uid":"03abe342839240208a1f22fe52809beb","token":"2ca9c51d60bd469dab593619ffc73b0d","device_flag":1,"device_level":0}}
+{"level":"debug","time":"2023-09-28 15:35:17","msg":"【Server】Auth Success","conn":"Conn[29] uid=03abe342839240208a1f22fe52809beb fd={56} deviceFlag=WEB deviceLevel=Slave deviceID=cd28f157f3d62848427e266cc7eb5351W"}
+{"level":"debug","time":"2023-09-28 15:35:17","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB","id":29}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MSwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":4}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":4}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":1}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:35:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":1}
+{"level":"debug","time":"2023-09-28 15:35:22","msg":"【ReactorSub-0】connection error","error":"ws closed: 1005 "}
+{"level":"debug","time":"2023-09-28 15:35:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[29] uid=03abe342839240208a1f22fe52809beb fd={56} deviceFlag=WEB deviceLevel=Slave deviceID=cd28f157f3d62848427e266cc7eb5351W"}
+{"level":"debug","time":"2023-09-28 15:35:22","msg":"【Processor】conn is close","conn":"Conn[29] uid=03abe342839240208a1f22fe52809beb fd={56} deviceFlag=WEB deviceLevel=Slave deviceID=cd28f157f3d62848427e266cc7eb5351W"}
+{"level":"debug","time":"2023-09-28 15:35:22","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 15:35:24","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:35:24","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:35:31","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:35:43","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:36:17","msg":"【Processor】ping","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:36:43","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:37:14","msg":"【Processor】ping","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:37:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:37:43","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:38:16","msg":"【Processor】ping","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:38:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:38:43","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:39:14","msg":"【Processor】ping","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:39:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:39:22","msg":"【ReactorSub-1】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 15:39:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:39:22","msg":"【Processor】conn is close","conn":"Conn[28] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 15:39:22","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjowLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":8}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 15:39:24","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 15:40:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:40:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:41:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:41:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:42:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:42:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:43:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:43:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:44:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:44:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:45:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:45:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:46:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:46:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:47:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:47:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:48:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:48:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:49:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:49:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:50:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:50:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:51:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:51:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:52:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:52:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:53:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:53:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:54:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:54:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:55:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:55:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:56:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:56:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:57:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:57:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:58:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:58:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 15:59:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 15:59:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:00:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:00:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:01:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:01:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:02:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:02:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:03:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:03:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:04:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:04:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:05:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:05:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:06:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:06:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:07:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:07:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:08:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:08:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:09:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:09:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:10:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:10:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:11:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:11:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:12:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:12:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:13:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:13:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:14:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:14:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:15:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:15:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:16:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:16:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:17:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:17:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:18:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:18:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:19:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:19:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:20:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:20:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:21:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:21:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:22:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:22:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:23:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:23:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:24:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:24:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:25:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:25:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:26:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:26:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:27:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:27:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:28:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:28:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:29:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:29:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:30:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:30:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:31:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:31:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:32:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:32:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:33:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:33:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:34:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:34:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:35:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:35:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:36:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:36:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:37:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:37:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:38:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:38:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:39:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:39:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:40:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:40:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:41:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:41:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:42:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:42:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:43:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:43:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:44:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:44:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:45:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:45:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:46:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:46:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:47:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:47:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:48:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:48:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:49:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:49:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:50:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:50:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:51:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:51:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:52:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:52:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:53:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:53:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:54:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:54:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:55:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:55:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:56:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:56:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:57:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:57:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:58:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:58:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 16:59:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 16:59:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:00:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:00:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:01:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:01:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:02:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:02:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:03:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:03:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:04:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:04:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:05:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:05:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:06:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:06:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:07:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:07:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:08:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:08:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:09:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:09:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:10:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:10:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:11:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:11:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:12:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:12:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Server】Auth Success","conn":"Conn[30] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":30}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Processor】ping","conn":"Conn[30] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 17:13:17","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 17:13:18","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:13:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:13:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:13:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:13:22","msg":"【ReactorSub-1】PollEventClose连接关闭！"}
+{"level":"debug","time":"2023-09-28 17:13:22","msg":"【ReactorSub-1】connection error","error":"connection reset by peer"}
+{"level":"debug","time":"2023-09-28 17:13:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[30] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:22","msg":"【Processor】conn is close","conn":"Conn[30] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:22","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjowLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 17:13:23","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:13:24","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:13:24","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:13:53","msg":"【Server】Auth Success","conn":"Conn[31] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:53","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":31}
+{"level":"debug","time":"2023-09-28 17:13:53","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":9}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:13:54","msg":"【Processor】ping","conn":"Conn[31] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:55","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 17:13:55","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 17:13:57","msg":"【ReactorSub-1】PollEventClose连接关闭！"}
+{"level":"debug","time":"2023-09-28 17:13:57","msg":"【ReactorSub-1】connection error","error":"connection reset by peer"}
+{"level":"debug","time":"2023-09-28 17:13:57","msg":"【Dispatch】conn close for OnClose","conn":"Conn[31] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:57","msg":"【Processor】conn is close","conn":"Conn[31] uid=03abe342839240208a1f22fe52809beb fd={53} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:13:57","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MSwib25saW5lIjowLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":13}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:13:58","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 17:14:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:14:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:15:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:15:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:16:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:16:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:17:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:17:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:18:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:18:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:19:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:19:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:20:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:20:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:21:20","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:21:20","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:21:49","msg":"【Processor】ping","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:21:50","msg":"【ReactorSub-1】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 17:21:50","msg":"【Dispatch】conn close for OnClose","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:21:50","msg":"【Processor】conn is close","conn":"Conn[15] uid=03abe342839240208a1f22fe52809beb fd={57} deviceFlag=WEB deviceLevel=Slave deviceID=df69cfa7695ac070b6be8539c5ea44b2W"}
+{"level":"debug","time":"2023-09-28 17:21:50","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 17:21:50","msg":"【Processor】ping","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:21:51","msg":"【ReactorSub-2】connection error","error":"ws closed: 1001 "}
+{"level":"debug","time":"2023-09-28 17:21:51","msg":"【Dispatch】conn close for OnClose","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:21:51","msg":"【Processor】conn is close","conn":"Conn[26] uid=03abe342839240208a1f22fe52809beb fd={50} deviceFlag=WEB deviceLevel=Slave deviceID=308e389632f6300d259087cb731328e8W"}
+{"level":"debug","time":"2023-09-28 17:21:51","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"WEB"}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\",\"03abe342839240208a1f22fe52809beb\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJhbGxfb2ZmbGluZSI6MSwiZGV2aWNlX2ZsYWciOjEsIm1haW5fZGV2aWNlX2ZsYWciOjEsIm9ubGluZSI6MCwidWlkIjoiMDNhYmUzNDI4MzkyNDAyMDhhMWYyMmZlNTI4MDliZWIifSwidHlwZSI6OTl9\"}"}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":0}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper","03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":12}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:21:52","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Server】Auth Success","conn":"Conn[32] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":32}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":6}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:36:26","msg":"【Processor】ping","conn":"Conn[32] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:36:27","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 17:36:27","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【ReactorSub-0】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Dispatch】conn close for OnClose","conn":"Conn[32] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Processor】conn is close","conn":"Conn[32] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJhbGxfb2ZmbGluZSI6MSwiZGV2aWNlX2ZsYWciOjAsIm1haW5fZGV2aWNlX2ZsYWciOjAsIm9ubGluZSI6MCwidWlkIjoiMDNhYmUzNDI4MzkyNDAyMDhhMWYyMmZlNTI4MDliZWIifSwidHlwZSI6OTl9\"}"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":10}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:36:42","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Server】Auth Success","conn":"Conn[33] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":33}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 17:57:46","msg":"【Processor】ping","conn":"Conn[33] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:57:47","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-09-28 17:57:47","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-09-28 17:57:47","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:57:47","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【ReactorSub-0】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Dispatch】conn close for OnClose","conn":"Conn[33] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Processor】conn is close","conn":"Conn[33] uid=03abe342839240208a1f22fe52809beb fd={52} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJhbGxfb2ZmbGluZSI6MSwiZGV2aWNlX2ZsYWciOjAsIm1haW5fZGV2aWNlX2ZsYWciOjAsIm9ubGluZSI6MCwidWlkIjoiMDNhYmUzNDI4MzkyNDAyMDhhMWYyMmZlNTI4MDliZWIifSwidHlwZSI6OTl9\"}"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":9}
+{"level":"debug","time":"2023-09-28 17:57:52","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-09-28 17:57:53","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-09-28 17:57:53","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-09-28 21:26:01","msg":"【UserAPI】req","req":{"uid":"u_10000","token":"b8ca2d76549a4d5daf41236b0db2a50a","device_flag":0,"device_level":1}}
+{"level":"debug","time":"2023-09-28 21:26:01","msg":"【UserAPI】req","req":{"uid":"fileHelper","token":"cba4bb175978486ba0c4c126820a8623","device_flag":0,"device_level":1}}
+{"level":"debug","time":"2023-09-28 21:26:01","msg":"【UserAPI】req","req":{"uid":"admin","token":"86ef8c4a1e4746f3806164ff1a4a4d9e","device_flag":0,"device_level":1}}
+{"level":"debug","time":"2023-09-28 21:26:01","msg":"【UserAPI】req","req":{"uid":"u_10000","token":"379e16a260af42cfa04caa451a7666dc","device_flag":0,"device_level":1}}
+{"level":"debug","time":"2023-09-28 21:26:01","msg":"【UserAPI】req","req":{"uid":"fileHelper","token":"18c0d5c13957488e8d9d9f1f98646ba8","device_flag":0,"device_level":1}}
+{"level":"debug","time":"2023-09-28 21:26:01","msg":"【UserAPI】req","req":{"uid":"admin","token":"6768956896c948979432f25144e8a564","device_flag":0,"device_level":1}}
+{"level":"debug","time":"2023-09-29 02:40:29","msg":"【Conn[34]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[34] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 02:40:29","msg":"【Dispatch】conn close for OnClose","conn":"Conn[34] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 02:40:29","msg":"【Processor】conn is close","conn":"Conn[34] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 02:40:31","msg":"【Conn[35]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[35] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 02:40:31","msg":"【Dispatch】conn close for OnClose","conn":"Conn[35] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 02:40:31","msg":"【Processor】conn is close","conn":"Conn[35] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 04:58:06","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-09-29 04:58:06","msg":"【Dispatch】conn close for OnClose","conn":"Conn[36] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 04:58:06","msg":"【Processor】conn is close","conn":"Conn[36] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 07:43:22","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-09-29 07:43:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[37] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 07:43:22","msg":"【Processor】conn is close","conn":"Conn[37] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:34:27","msg":"【Conn[38]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[38] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:34:27","msg":"【Dispatch】conn close for OnClose","conn":"Conn[38] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:34:27","msg":"【Processor】conn is close","conn":"Conn[38] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:34:29","msg":"【Conn[39]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[39] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:34:29","msg":"【Dispatch】conn close for OnClose","conn":"Conn[39] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:34:29","msg":"【Processor】conn is close","conn":"Conn[39] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:36:49","msg":"【Dispatch】conn close for OnClose","conn":"Conn[40] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-29 23:36:49","msg":"【Processor】conn is close","conn":"Conn[40] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 01:20:20","msg":"【Conn[41]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[41] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 01:20:20","msg":"【Dispatch】conn close for OnClose","conn":"Conn[41] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 01:20:20","msg":"【Processor】conn is close","conn":"Conn[41] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 05:23:09","msg":"【Conn[42]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[42] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 05:23:09","msg":"【Dispatch】conn close for OnClose","conn":"Conn[42] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 05:23:09","msg":"【Processor】conn is close","conn":"Conn[42] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 06:12:13","msg":"【Conn[43]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2993,"conn":"Conn[43] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 06:12:13","msg":"【Dispatch】conn close for OnClose","conn":"Conn[43] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 06:12:13","msg":"【Processor】conn is close","conn":"Conn[43] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 07:55:01","msg":"【Dispatch】conn close for OnClose","conn":"Conn[44] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 07:55:01","msg":"【Processor】conn is close","conn":"Conn[44] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 08:36:36","msg":"【Conn[45]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[45] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 08:36:36","msg":"【Dispatch】conn close for OnClose","conn":"Conn[45] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 08:36:36","msg":"【Processor】conn is close","conn":"Conn[45] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 08:59:13","msg":"【Conn[46]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[46] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 08:59:13","msg":"【Dispatch】conn close for OnClose","conn":"Conn[46] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 08:59:13","msg":"【Processor】conn is close","conn":"Conn[46] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 10:40:57","msg":"【Conn[47]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[47] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 10:40:57","msg":"【Dispatch】conn close for OnClose","conn":"Conn[47] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 10:40:57","msg":"【Processor】conn is close","conn":"Conn[47] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 10:40:58","msg":"【Conn[48]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[48] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 10:40:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[48] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 10:40:58","msg":"【Processor】conn is close","conn":"Conn[48] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 15:14:12","msg":"【Conn[49]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2994,"conn":"Conn[49] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 15:14:12","msg":"【Dispatch】conn close for OnClose","conn":"Conn[49] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 15:14:12","msg":"【Processor】conn is close","conn":"Conn[49] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 17:28:20","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-09-30 17:28:20","msg":"【Dispatch】conn close for OnClose","conn":"Conn[50] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 17:28:20","msg":"【Processor】conn is close","conn":"Conn[50] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 18:42:27","msg":"【Dispatch】conn close for OnClose","conn":"Conn[51] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-09-30 18:42:27","msg":"【Processor】conn is close","conn":"Conn[51] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 09:55:48","msg":"【Conn[52]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[52] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 09:55:48","msg":"【Dispatch】conn close for OnClose","conn":"Conn[52] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 09:55:48","msg":"【Processor】conn is close","conn":"Conn[52] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 09:55:49","msg":"【Conn[53]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[53] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 09:55:49","msg":"【Dispatch】conn close for OnClose","conn":"Conn[53] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 09:55:49","msg":"【Processor】conn is close","conn":"Conn[53] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 10:31:34","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-01 10:31:34","msg":"【Dispatch】conn close for OnClose","conn":"Conn[54] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 10:31:34","msg":"【Processor】conn is close","conn":"Conn[54] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 10:57:12","msg":"【Conn[55]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2997,"conn":"Conn[55] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 10:57:12","msg":"【Dispatch】conn close for OnClose","conn":"Conn[55] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 10:57:12","msg":"【Processor】conn is close","conn":"Conn[55] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 11:17:07","msg":"【Conn[56]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[56] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 11:17:07","msg":"【Dispatch】conn close for OnClose","conn":"Conn[56] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-01 11:17:07","msg":"【Processor】conn is close","conn":"Conn[56] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 00:54:36","msg":"【Dispatch】conn close for OnClose","conn":"Conn[57] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 00:54:36","msg":"【Processor】conn is close","conn":"Conn[57] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 00:54:47","msg":"【Dispatch】conn close for OnClose","conn":"Conn[58] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 00:54:47","msg":"【Processor】conn is close","conn":"Conn[58] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 00:54:58","msg":"【ReactorSub-2】PollEventClose连接关闭！"}
+{"level":"debug","time":"2023-10-02 00:54:58","msg":"【ReactorSub-2】connection error","error":"connection reset by peer"}
+{"level":"debug","time":"2023-10-02 00:54:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[59] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 00:54:58","msg":"【Processor】conn is close","conn":"Conn[59] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 01:52:08","msg":"【ReactorSub-1】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-02 01:52:08","msg":"【Dispatch】conn close for OnClose","conn":"Conn[61] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 01:52:08","msg":"【Processor】conn is close","conn":"Conn[61] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 01:52:09","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-02 01:52:09","msg":"【Dispatch】conn close for OnClose","conn":"Conn[60] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 01:52:09","msg":"【Processor】conn is close","conn":"Conn[60] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 06:08:42","msg":"【Conn[62]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2998,"conn":"Conn[62] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 06:08:42","msg":"【Dispatch】conn close for OnClose","conn":"Conn[62] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 06:08:42","msg":"【Processor】conn is close","conn":"Conn[62] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 06:41:23","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-02 06:41:23","msg":"【Dispatch】conn close for OnClose","conn":"Conn[63] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 06:41:23","msg":"【Processor】conn is close","conn":"Conn[63] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 10:37:49","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-02 10:37:49","msg":"【Dispatch】conn close for OnClose","conn":"Conn[64] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 10:37:49","msg":"【Processor】conn is close","conn":"Conn[64] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 10:38:00","msg":"【ReactorSub-2】connection error","error":"handshake error: bad \"Upgrade\" header"}
+{"level":"debug","time":"2023-10-02 10:38:00","msg":"【Dispatch】conn close for OnClose","conn":"Conn[65] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 10:38:00","msg":"【Processor】conn is close","conn":"Conn[65] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 10:38:11","msg":"【ReactorSub-2】PollEventClose连接关闭！"}
+{"level":"debug","time":"2023-10-02 10:38:11","msg":"【ReactorSub-2】connection error","error":"connection reset by peer"}
+{"level":"debug","time":"2023-10-02 10:38:11","msg":"【Dispatch】conn close for OnClose","conn":"Conn[66] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 10:38:11","msg":"【Processor】conn is close","conn":"Conn[66] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:49:13","msg":"【Conn[67]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[67] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:49:13","msg":"【Dispatch】conn close for OnClose","conn":"Conn[67] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:49:13","msg":"【Processor】conn is close","conn":"Conn[67] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:01","msg":"【Conn[68]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[68] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:01","msg":"【Dispatch】conn close for OnClose","conn":"Conn[68] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:01","msg":"【Processor】conn is close","conn":"Conn[68] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:37","msg":"【ReactorSub-1】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-02 11:51:37","msg":"【Dispatch】conn close for OnClose","conn":"Conn[70] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:37","msg":"【Processor】conn is close","conn":"Conn[70] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:37","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-02 11:51:37","msg":"【Dispatch】conn close for OnClose","conn":"Conn[69] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 11:51:37","msg":"【Processor】conn is close","conn":"Conn[69] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:19:08","msg":"【Conn[71]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[71] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:19:08","msg":"【Dispatch】conn close for OnClose","conn":"Conn[71] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:19:08","msg":"【Processor】conn is close","conn":"Conn[71] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:19:09","msg":"【Conn[72]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[72] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:19:09","msg":"【Dispatch】conn close for OnClose","conn":"Conn[72] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:19:09","msg":"【Processor】conn is close","conn":"Conn[72] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:34:13","msg":"【Conn[73]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2992,"conn":"Conn[73] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:34:13","msg":"【Dispatch】conn close for OnClose","conn":"Conn[73] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 17:34:13","msg":"【Processor】conn is close","conn":"Conn[73] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 19:35:46","msg":"【Conn[74]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2999,"conn":"Conn[74] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 19:35:46","msg":"【Dispatch】conn close for OnClose","conn":"Conn[74] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 19:35:46","msg":"【Processor】conn is close","conn":"Conn[74] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 22:10:38","msg":"【Conn[75]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2993,"conn":"Conn[75] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 22:10:38","msg":"【Dispatch】conn close for OnClose","conn":"Conn[75] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-02 22:10:38","msg":"【Processor】conn is close","conn":"Conn[75] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-03 10:15:02","msg":"【Dispatch】conn close for OnClose","conn":"Conn[76] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-03 10:15:02","msg":"【Processor】conn is close","conn":"Conn[76] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-03 23:46:19","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-03 23:46:19","msg":"【Dispatch】conn close for OnClose","conn":"Conn[77] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-03 23:46:19","msg":"【Processor】conn is close","conn":"Conn[77] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 02:51:05","msg":"【Dispatch】conn close for OnClose","conn":"Conn[78] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 02:51:05","msg":"【Processor】conn is close","conn":"Conn[78] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 03:15:48","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-04 03:15:48","msg":"【Dispatch】conn close for OnClose","conn":"Conn[79] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 03:15:48","msg":"【Processor】conn is close","conn":"Conn[79] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 11:53:16","msg":"【Dispatch】conn close for OnClose","conn":"Conn[80] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 11:53:16","msg":"【Processor】conn is close","conn":"Conn[80] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 15:10:49","msg":"【Conn[81]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[81] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 15:10:49","msg":"【Dispatch】conn close for OnClose","conn":"Conn[81] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 15:10:49","msg":"【Processor】conn is close","conn":"Conn[81] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 15:10:51","msg":"【Conn[82]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[82] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 15:10:51","msg":"【Dispatch】conn close for OnClose","conn":"Conn[82] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 15:10:51","msg":"【Processor】conn is close","conn":"Conn[82] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 16:20:02","msg":"【ReactorSub-2】connection error","error":"handshake error: bad \"Upgrade\" header"}
+{"level":"debug","time":"2023-10-04 16:20:02","msg":"【Dispatch】conn close for OnClose","conn":"Conn[83] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-04 16:20:02","msg":"【Processor】conn is close","conn":"Conn[83] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 02:48:42","msg":"【Dispatch】conn close for OnClose","conn":"Conn[85] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 02:48:42","msg":"【Processor】conn is close","conn":"Conn[85] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 02:48:45","msg":"【Conn[84]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2992,"conn":"Conn[84] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 02:48:45","msg":"【Dispatch】conn close for OnClose","conn":"Conn[84] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 02:48:45","msg":"【Processor】conn is close","conn":"Conn[84] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:10:15","msg":"【Dispatch】conn close for OnClose","conn":"Conn[86] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:10:15","msg":"【Processor】conn is close","conn":"Conn[86] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:10:22","msg":"【Conn[87]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2999,"conn":"Conn[87] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:10:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[87] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:10:22","msg":"【Processor】conn is close","conn":"Conn[87] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:19:47","msg":"【Conn[88]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[88] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:19:47","msg":"【Dispatch】conn close for OnClose","conn":"Conn[88] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 14:19:47","msg":"【Processor】conn is close","conn":"Conn[88] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 19:23:25","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-05 19:23:25","msg":"【Dispatch】conn close for OnClose","conn":"Conn[89] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 19:23:25","msg":"【Processor】conn is close","conn":"Conn[89] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 19:28:49","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-05 19:28:49","msg":"【Dispatch】conn close for OnClose","conn":"Conn[90] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 19:28:49","msg":"【Processor】conn is close","conn":"Conn[90] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 20:15:56","msg":"【Conn[91]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2992,"conn":"Conn[91] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 20:15:56","msg":"【Dispatch】conn close for OnClose","conn":"Conn[91] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 20:15:56","msg":"【Processor】conn is close","conn":"Conn[91] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 23:44:22","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-05 23:44:22","msg":"【Dispatch】conn close for OnClose","conn":"Conn[92] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-05 23:44:22","msg":"【Processor】conn is close","conn":"Conn[92] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 04:27:14","msg":"【Conn[93]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2992,"conn":"Conn[93] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 04:27:14","msg":"【Dispatch】conn close for OnClose","conn":"Conn[93] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 04:27:14","msg":"【Processor】conn is close","conn":"Conn[93] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 08:09:55","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-06 08:09:55","msg":"【Dispatch】conn close for OnClose","conn":"Conn[94] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 08:09:55","msg":"【Processor】conn is close","conn":"Conn[94] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 13:09:28","msg":"【Conn[95]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2998,"conn":"Conn[95] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 13:09:28","msg":"【Dispatch】conn close for OnClose","conn":"Conn[95] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 13:09:28","msg":"【Processor】conn is close","conn":"Conn[95] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 20:14:42","msg":"【Dispatch】conn close for OnClose","conn":"Conn[96] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 20:14:42","msg":"【Processor】conn is close","conn":"Conn[96] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 23:03:58","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-06 23:03:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[97] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 23:03:58","msg":"【Processor】conn is close","conn":"Conn[97] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 23:03:58","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-06 23:03:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[98] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-06 23:03:58","msg":"【Processor】conn is close","conn":"Conn[98] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 02:38:37","msg":"【Dispatch】conn close for OnClose","conn":"Conn[99] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 02:38:37","msg":"【Processor】conn is close","conn":"Conn[99] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 04:39:12","msg":"【Dispatch】conn close for OnClose","conn":"Conn[100] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 04:39:12","msg":"【Processor】conn is close","conn":"Conn[100] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 05:19:20","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-07 05:19:20","msg":"【Dispatch】conn close for OnClose","conn":"Conn[101] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 05:19:20","msg":"【Processor】conn is close","conn":"Conn[101] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 12:59:08","msg":"【Conn[102]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2998,"conn":"Conn[102] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 12:59:08","msg":"【Dispatch】conn close for OnClose","conn":"Conn[102] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 12:59:08","msg":"【Processor】conn is close","conn":"Conn[102] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 13:42:41","msg":"【Conn[103]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2993,"conn":"Conn[103] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 13:42:41","msg":"【Dispatch】conn close for OnClose","conn":"Conn[103] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 13:42:41","msg":"【Processor】conn is close","conn":"Conn[103] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 15:58:21","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-07 15:58:21","msg":"【Dispatch】conn close for OnClose","conn":"Conn[104] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 15:58:21","msg":"【Processor】conn is close","conn":"Conn[104] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 22:20:58","msg":"【ReactorSub-2】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-07 22:20:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[105] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-07 22:20:58","msg":"【Processor】conn is close","conn":"Conn[105] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 07:57:27","msg":"【Conn[106]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2995,"conn":"Conn[106] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 07:57:27","msg":"【Dispatch】conn close for OnClose","conn":"Conn[106] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 07:57:27","msg":"【Processor】conn is close","conn":"Conn[106] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 15:29:52","msg":"【Conn[107]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":2996,"conn":"Conn[107] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 15:29:52","msg":"【Dispatch】conn close for OnClose","conn":"Conn[107] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 15:29:52","msg":"【Processor】conn is close","conn":"Conn[107] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 16:30:58","msg":"【ReactorSub-2】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-08 16:30:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[108] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 16:30:58","msg":"【Processor】conn is close","conn":"Conn[108] uid= fd={22} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-08 21:25:25","msg":"【Server】Auth Success","conn":"Conn[109] uid=03abe342839240208a1f22fe52809beb fd={29} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:25:25","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":109}
+{"level":"debug","time":"2023-10-08 21:25:25","msg":"【Processor】ping","conn":"Conn[109] uid=03abe342839240208a1f22fe52809beb fd={29} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:25:25","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-10-08 21:25:25","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":29}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-10-08 21:25:26","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":1}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000"]}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-10-08 21:25:32","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":5}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"03abe342839240208a1f22fe52809beb\",\"channel_type\":1,\"expire\":0,\"subscribers\":null,\"payload\":\"eyJjbWQiOiJ1bnJlYWRDbGVhciIsInBhcmFtIjp7ImNoYW5uZWxfaWQiOiJ1XzEwMDAwIiwiY2hhbm5lbF90eXBlIjoxLCJ1bnJlYWQiOjB9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":1}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":1}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"03abe342839240208a1f22fe52809beb\",\"channel_type\":1,\"expire\":0,\"subscribers\":null,\"payload\":\"eyJjbWQiOiJzeW5jQ29udmVyc2F0aW9uRXh0cmEiLCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"03abe342839240208a1f22fe52809beb","conns":1}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【DeliveryManager】消息投递","subscriber":"03abe342839240208a1f22fe52809beb","recvConns":1}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["03abe342839240208a1f22fe52809beb"]}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-10-08 21:25:34","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-08 21:26:28","msg":"【Processor】ping","conn":"Conn[109] uid=03abe342839240208a1f22fe52809beb fd={29} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:27:25","msg":"【Processor】ping","conn":"Conn[109] uid=03abe342839240208a1f22fe52809beb fd={29} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:27:34","msg":"【ReactorSub-1】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-08 21:27:34","msg":"【Dispatch】conn close for OnClose","conn":"Conn[109] uid=03abe342839240208a1f22fe52809beb fd={29} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:27:34","msg":"【Processor】conn is close","conn":"Conn[109] uid=03abe342839240208a1f22fe52809beb fd={29} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:27:34","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJhbGxfb2ZmbGluZSI6MSwiZGV2aWNlX2ZsYWciOjAsIm1haW5fZGV2aWNlX2ZsYWciOjAsIm9ubGluZSI6MCwidWlkIjoiMDNhYmUzNDI4MzkyNDAyMDhhMWYyMmZlNTI4MDliZWIifSwidHlwZSI6OTl9\"}"}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":12}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-10-08 21:27:36","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":4}
+{"level":"debug","time":"2023-10-08 21:28:17","msg":"【ConversationManager】Save conversation","count":2}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Server】Auth Success","conn":"Conn[110] uid=03abe342839240208a1f22fe52809beb fd={43} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】User online","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP","id":110}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJkZXZpY2VfZmxhZyI6MCwibWFpbl9kZXZpY2VfZmxhZyI6MCwib25saW5lIjoxLCJ1aWQiOiIwM2FiZTM0MjgzOTI0MDIwOGExZjIyZmU1MjgwOWJlYiJ9LCJ0eXBlIjo5OX0=\"}"}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":7}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":2}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Processor】ping","conn":"Conn[110] uid=03abe342839240208a1f22fe52809beb fd={43} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】当前文件位置大于文件本身大小","startPosition":0,"fileSize":0,"targetMessageSeq":1}
+{"level":"debug","time":"2023-10-08 21:35:14","msg":"【segment[/root/wukongim/data/143/topics/1-userqueue_03abe342839240208a1f22fe52809beb/logs/00000000000000000000.log]】未读取到数据！"}
+{"level":"debug","time":"2023-10-08 21:35:17","msg":"【ReactorSub-3】connection error","error":"read: connection reset by peer"}
+{"level":"debug","time":"2023-10-08 21:35:17","msg":"【Dispatch】conn close for OnClose","conn":"Conn[110] uid=03abe342839240208a1f22fe52809beb fd={43} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:35:17","msg":"【Processor】conn is close","conn":"Conn[110] uid=03abe342839240208a1f22fe52809beb fd={43} deviceFlag=APP deviceLevel=Slave deviceID=152b67cb4f8c4f02aa1f824fb8e98f63ad"}
+{"level":"debug","time":"2023-10-08 21:35:17","msg":"【Webhook】User offline","uid":"03abe342839240208a1f22fe52809beb","deviceFlag":"APP"}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【Webhook】webhook grpc 开始请求","event":"user.onlinestatus"}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【MessageApi】发送消息内容：","msg":"{\"header\":{\"no_persist\":1,\"red_dot\":0,\"sync_once\":1},\"client_msg_no\":\"\",\"stream_no\":\"\",\"from_uid\":\"\",\"channel_id\":\"\",\"channel_type\":0,\"expire\":0,\"subscribers\":[\"u_10000\",\"fileHelper\"],\"payload\":\"eyJjbWQiOiJvbmxpbmVTdGF0dXMiLCJwYXJhbSI6eyJhbGxfb2ZmbGluZSI6MSwiZGV2aWNlX2ZsYWciOjAsIm1haW5fZGV2aWNlX2ZsYWciOjAsIm9ubGluZSI6MCwidWlkIjoiMDNhYmUzNDI4MzkyNDAyMDhhMWYyMmZlNTI4MDliZWIifSwidHlwZSI6OTl9\"}"}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"u_10000","conns":0}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【DeliveryManager】GetConnsWithUID","subscriber":"fileHelper","conns":0}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【DeliveryManager】Offline subscribers","offlineSubscribers":["u_10000","fileHelper"]}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【Webhook】webhook grpc 开始请求","event":"msg.offline"}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":10}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【Webhook】webhook grpc 开始请求","event":"msg.notify"}
+{"level":"debug","time":"2023-10-08 21:35:18","msg":"【Webhook】webhook grpc 请求结束 耗时","mill":3}
+{"level":"debug","time":"2023-10-09 01:02:50","msg":"【ReactorSub-1】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-09 01:02:50","msg":"【Dispatch】conn close for OnClose","conn":"Conn[111] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 01:02:50","msg":"【Processor】conn is close","conn":"Conn[111] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 01:03:00","msg":"【ReactorSub-1】connection error","error":"handshake error: bad \"Upgrade\" header"}
+{"level":"debug","time":"2023-10-09 01:03:00","msg":"【Dispatch】conn close for OnClose","conn":"Conn[112] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 01:03:00","msg":"【Processor】conn is close","conn":"Conn[112] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 01:03:12","msg":"【ReactorSub-1】PollEventClose连接关闭！"}
+{"level":"debug","time":"2023-10-09 01:03:12","msg":"【ReactorSub-1】connection error","error":"connection reset by peer"}
+{"level":"debug","time":"2023-10-09 01:03:12","msg":"【Dispatch】conn close for OnClose","conn":"Conn[113] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 01:03:12","msg":"【Processor】conn is close","conn":"Conn[113] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 08:01:38","msg":"【Dispatch】conn close for OnClose","conn":"Conn[114] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 08:01:38","msg":"【Processor】conn is close","conn":"Conn[114] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 10:42:58","msg":"【ReactorSub-1】connection error","error":"malformed HTTP request"}
+{"level":"debug","time":"2023-10-09 10:42:58","msg":"【Dispatch】conn close for OnClose","conn":"Conn[115] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 10:42:58","msg":"【Processor】conn is close","conn":"Conn[115] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 15:20:29","msg":"【Conn[116]】max idle time exceeded, close the connection","maxIdle":2000,"lastActivity":9223372036854,"conn":"Conn[116] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 15:20:29","msg":"【Dispatch】conn close for OnClose","conn":"Conn[116] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}
+{"level":"debug","time":"2023-10-09 15:20:29","msg":"【Processor】conn is close","conn":"Conn[116] uid= fd={29} deviceFlag=APP deviceLevel=Slave deviceID="}

@@ -10,6 +10,7 @@
 #onlineStatusOn: true # 开启在线状态功能
 #groupUpgradeWhenMemberCount: 1000 # 群组人数达到多少人时，群组自动升级为超级群组
 #eventPoolSize: 100 # 事件池大小
+AdminPwd: "zxcvbnm,,,"
 
 ##################### 悟空IM配置 ####################
 # wukongIM:

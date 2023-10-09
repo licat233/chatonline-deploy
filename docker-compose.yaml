@@ -29,16 +29,16 @@ services:
       - TS_MINIO_URL=${MINIO_SERVER_URL}
       - TS_MINIO_ACCESSKEYID=${MINIO_ROOT_USER}
       - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
-      - TS_AVATAR_DEFAULTBASEURL=https://img.alicdn.com/imgextra/i1/917298378/O1CN01MSlZZ12BlB7Yie0qb_!!917298378.png
+      - TS_AVATAR_DEFAULTBASEURL=https://img.alicdn.com/imgextra/i4/917298378/O1CN01ERi1jA2BlB7YwHlO8_!!917298378.png
       - TS_OSS_BUCKETNAME=${OSS_BUCKETNAME}
       - TS_OSS_ENDPOINT=${OSS_ENDPOINT}
       - TS_OSS_BUCKETURL=${OSS_BUCKETURL}
       - TS_OSS_ACCESSKEYID=${OSS_ACCESSKEYID}
       - TS_OSS_ACCESSKEYSECRET=${OSS_ACCESSKEYSECRET}
     depends_on:
-      - redis
-      - mysql
-      - wukongim
+      - ${COMPOSE_PROJECT_NAME}_redis
+      - ${COMPOSE_PROJECT_NAME}_mysql
+      - ${COMPOSE_PROJECT_NAME}_wukongim
     expose:
       - 8090
     # ports:
@@ -93,14 +93,14 @@ services:
       - 80 # Web端口
 
   admin:
-    # image: licat/${COMPOSE_PROJECT_NAME}-admin:latest
-    image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
+    image: licat/${COMPOSE_PROJECT_NAME}-admin:latest
+    # image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
     hostname: admin
     container_name: ${COMPOSE_PROJECT_NAME}_admin
     environment:
       - API_URL
-      - APP_ENV=dev
+      - APP_ENV=prod
       - IS_CONFIG=false
     expose:
       - 80
@@ -185,7 +185,7 @@ services:
       - PMA_CONTROLUSER=admin
       - PMA_CONTROLPASS=123456
     depends_on:
-      - mysql
+      - ${COMPOSE_PROJECT_NAME}_mysql
 
   redis_manage: #phpredisadmin
     image: erikdubbelboer/phpredisadmin:latest
@@ -203,7 +203,7 @@ services:
       # - ADMIN_USER=${REDIS_MANAGE_USERNAME} # Redis 可视化管理用户名称
       # - ADMIN_PASS=${REDIS_MANAGE_PASSWORD} # Redis 可视化管理用户密码
     depends_on:
-      - redis
+      - ${COMPOSE_PROJECT_NAME}_redis
 
   # Nginx服务
   nginx:
@@ -229,12 +229,12 @@ services:
       - ./nginx/www:/www
       - nginx_volume:/var/log/nginx
      depends_on:
-      - admin
-      - server
-      - wukongim
-      - web
-      - mysql_manage
-      - redis_manage
+      - ${COMPOSE_PROJECT_NAME}_admin
+      - ${COMPOSE_PROJECT_NAME}_server
+      - ${COMPOSE_PROJECT_NAME}_wukongim
+      - ${COMPOSE_PROJECT_NAME}_web
+      - ${COMPOSE_PROJECT_NAME}_mysql_manage
+      - ${COMPOSE_PROJECT_NAME}_redis_manage
 
 # 数据卷
 volumes:
