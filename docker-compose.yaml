@@ -36,9 +36,9 @@ services:
       - TS_OSS_ACCESSKEYID=${OSS_ACCESSKEYID}
       - TS_OSS_ACCESSKEYSECRET=${OSS_ACCESSKEYSECRET}
     depends_on:
-      - ${COMPOSE_PROJECT_NAME}_redis
-      - ${COMPOSE_PROJECT_NAME}_mysql
-      - ${COMPOSE_PROJECT_NAME}_wukongim
+      - redis
+      - mysql
+      - wukongim
     expose:
       - 8090
     # ports:
@@ -185,7 +185,7 @@ services:
       - PMA_CONTROLUSER=admin
       - PMA_CONTROLPASS=123456
     depends_on:
-      - ${COMPOSE_PROJECT_NAME}_mysql
+      - mysql
 
   redis_manage: #phpredisadmin
     image: erikdubbelboer/phpredisadmin:latest
@@ -203,7 +203,7 @@ services:
       # - ADMIN_USER=${REDIS_MANAGE_USERNAME} # Redis 可视化管理用户名称
       # - ADMIN_PASS=${REDIS_MANAGE_PASSWORD} # Redis 可视化管理用户密码
     depends_on:
-      - ${COMPOSE_PROJECT_NAME}_redis
+      - redis
 
   # Nginx服务
   nginx:
@@ -229,12 +229,12 @@ services:
       - ./nginx/www:/www
       - nginx_volume:/var/log/nginx
      depends_on:
-      - ${COMPOSE_PROJECT_NAME}_admin
-      - ${COMPOSE_PROJECT_NAME}_server
-      - ${COMPOSE_PROJECT_NAME}_wukongim
-      - ${COMPOSE_PROJECT_NAME}_web
-      - ${COMPOSE_PROJECT_NAME}_mysql_manage
-      - ${COMPOSE_PROJECT_NAME}_redis_manage
+      - admin
+      - server
+      - wukongim
+      - web
+      - mysql_manage
+      - redis_manage
 
 # 数据卷
 volumes:
