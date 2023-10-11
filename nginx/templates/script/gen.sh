@@ -12,28 +12,19 @@ current_path=$(
 cd $current_path
 cd ..
 
-# domain="chat.mixbench.net"
-rewrite_file="vhost/dev.conf.template"
-
 # 注意：macOS中 bash3.2不支持关联数组，需要升级到bash4+，但不建议这样做，因为Apple仍将版本3作为系统外壳提供
 # 故采取此方案
 
-# web_port=$WEB_PORT
-
-# if [ ! -n "$web_port" ]; then
-#   web_port=80
-# fi
-
 # 服务名，服务地址
 weblist=(
-    "mysql,mysql_manage:80"
-    "redis,redis_manage:80"
-    "admin,admin:80"
-    "web,web:80"
+    "mysql,mysql_manage:80,auth"
+    "redis,redis_manage:80,auth"
+    "admin,admin:80,"
+    "web,web:80,"
     # "imtcp,wukongim:5100" # 不能经过反代
     # "imws,wukongim:5200"  # 不能经过反代
-    "imui,wukongim:5300"
-    "api,server:8090"
+    "imui,wukongim:5300,auth"
+    "api,server:8090,"
 )
 
 # split 方法的实现
@@ -42,10 +33,10 @@ splitstr() {
     mark=$2
     arr=($(echo $web | tr $mark ' '))
     num=${#arr[@]}
-    if [ $num -ne 2 ]; then
-        echo "split error: ${web}"
-        exit 1
-    fi
+    # if [ $num -ne 2 ]; then
+    #     echo "split error: ${web}"
+    #     exit 1
+    # fi
     echo ${arr[@]}
 }
 
@@ -84,7 +75,7 @@ replace() {
         sed -i "s/${oldstr}/${newstr}/g" $file
     fi
 
-    set +e  # 恢复正常操作
+    set +e # 恢复正常操作
 
     if [ $? -ne 0 ]; then
         recover $file
@@ -99,6 +90,7 @@ current_time=$(date "+%Y-%m-%d %H:%M:%S")
 generator() {
     server_name=$1
     server_addr=$2
+    server_auth=$3
     filename="${server_name}.conf.template"
     backup $filename
     if [ -f $filename ]; then
@@ -110,6 +102,10 @@ generator() {
     replace $filename "__NAME__" $server_name
     replace $filename "__ADDR__" $server_addr
     replace $filename "__TIME__" $current_time
+    if [ "$server_auth" = "auth" ]; then
+        # 取消注释，开启auth
+        replace $filename "#auth#" ""
+    fi
 }
 
 # 兼容性有问题，不可用
@@ -123,21 +119,6 @@ insert() {
     fi
 }
 
-gen_dev_conf() {
-    server_name=$1
-    server_addr=$2
-    echo "
-location ~ /${server_name}/.*\.(jpg|jpeg|gif|png|ico|css|pdf|ppt|txt|bmp|rtf|ttf|svg|js)$ {
-    proxy_pass http://${server_addr};
-    expires 30d;
-    add_header Cache-Control public;
-}
-location /${server_name} {
-   proxy_pass http://${server_addr};
-}" >>$rewrite_file
-
-}
-
 if [ ! -d "backup" ]; then
     mkdir "backup"
 fi
@@ -146,21 +127,16 @@ if [ ! -d "extend" ]; then
     mkdir "extend"
 fi
 
-if [ ! -d "vhost" ]; then
-    mkdir "vhost"
-fi
-
-if [ ! -d "backup/vhost" ]; then
-    mkdir "backup/vhost"
-fi
-
-# backup $rewrite_file
-# touch $rewrite_file
+# 将逗号作为分隔符
+# IFS=',' read -ra parts <<< "$web"
+# echo "${parts[5]}"
 
 for web in ${weblist[@]}; do
-    arr=($(splitstr $web ','))
-    $(generator ${arr[0]} ${arr[1]})
-    # $(gen_dev_conf ${arr[0]} ${arr[1]})
+    IFS=',' read -ra parts <<< "$web"
+    name="${parts[0]}"
+    addr="${parts[1]}"
+    auth="${parts[2]}"
+    $(generator ${name} ${addr} ${auth})
 done
 
 echo "----------- generator success -----------"
