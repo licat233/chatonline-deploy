@@ -10,7 +10,7 @@
 #onlineStatusOn: true # 开启在线状态功能
 #groupUpgradeWhenMemberCount: 1000 # 群组人数达到多少人时，群组自动升级为超级群组
 #eventPoolSize: 100 # 事件池大小
-AdminPwd: "zxcvbnm,,,"
+adminPwd: "zxcvbnm,,," # 密文：aafbbd0a25f242075ec209fa2d35790c
 
 ##################### 悟空IM配置 ####################
 # wukongIM:
@@ -59,11 +59,11 @@ AdminPwd: "zxcvbnm,,,"
 #   url: ${TS_MINIO_URL} # minio地址 格式：http://xx.xx.xx.xx:9000
 #   accessKeyID: ${TS_MINIO_ACCESSKEYID} # minio accessKeyID
 #   secretAccessKey: ${TS_MINIO_SECRETACCESSKEY} # minio secretAccessKey
-oss:  # aliyun oss配置
- endpoint: ${TS_OSS_ENDPOINT} # oss endpoint 例如 oss-cn-hangzhou.aliyuncs.com
- bucketURL: ${TS_OSS_BUCKETURL} # oss bucketURL 例如 https://xxxx.oss-cn-hangzhou.aliyuncs.com
- accessKeyID: ${TS_OSS_ACCESSKEYID} # oss accessKeyID
- accessKeySecret: ${TS_OSS_ACCESSKEYSECRET} # oss accessKeySecret
+# oss:  # aliyun oss配置
+#  endpoint: ${TS_OSS_ENDPOINT} # oss endpoint 例如 oss-cn-hangzhou.aliyuncs.com
+#  bucketURL: ${TS_OSS_BUCKETURL} # oss bucketURL 例如 https://xxxx.oss-cn-hangzhou.aliyuncs.com
+#  accessKeyID: ${TS_OSS_ACCESSKEYID} # oss accessKeyID
+#  accessKeySecret: ${TS_OSS_ACCESSKEYSECRET} # oss accessKeySecret
 #seaweed: # seaweed配置
 #  url: ""   # seaweed地址 格式：http://xx.xx.xx.xx:9000
 

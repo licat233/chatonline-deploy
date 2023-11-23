@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   server:
-    image: licat/chatonline-server:latest
+    image: licat/chatonline-server:v4
     # build:
     #   context: ./modd
     #   dockerfile: Dockerfile
@@ -29,12 +29,14 @@ services:
       - TS_MINIO_URL=${MINIO_SERVER_URL}
       - TS_MINIO_ACCESSKEYID=${MINIO_ROOT_USER}
       - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
-      - TS_AVATAR_DEFAULTBASEURL=https://img.alicdn.com/imgextra/i4/917298378/O1CN01ERi1jA2BlB7YwHlO8_!!917298378.png
+      - TS_AVATAR_DEFAULTBASEURL=https://swifttalk-storage.oss-cn-hongkong.aliyuncs.com/icon/contact_blue.png
       - TS_OSS_BUCKETNAME=${OSS_BUCKETNAME}
       - TS_OSS_ENDPOINT=${OSS_ENDPOINT}
       - TS_OSS_BUCKETURL=${OSS_BUCKETURL}
       - TS_OSS_ACCESSKEYID=${OSS_ACCESSKEYID}
       - TS_OSS_ACCESSKEYSECRET=${OSS_ACCESSKEYSECRET}
+      - TS_OFFLINE_MESSAGE
+      - TS_AVATAR_FILE_PATH
     depends_on:
       - redis
       - mysql
@@ -46,9 +48,12 @@ services:
     volumes:
       - ./server/data:/home/tsdddata
       - ./server/config/tsdd.yaml:/home/configs/tsdd.yaml
-      - go_volume:/go:rw
-      - ./modd/modd.conf:/root/modd.conf
-      - ./../server:/app
+    #   - ./zoneinfo/Shanghai:/usr/share/zoneinfo/Asia/Shanghai
+    #   - go_volume:/go:rw
+    #   - ./modd/modd.conf:/root/modd.conf
+    #   - ./../server:/app
+    networks:
+      chatonline_network:
 
   wukongim: # 悟空IM通讯服务
     image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
@@ -81,6 +86,8 @@ services:
       - ./wukongim/logs:/root/wukongim/logs
       - ./wukongim/wk.yaml:/root/wukongim/wk.yaml
       - im_volume:/root/wukongim/data
+    networks:
+      chatonline_network:
 
   web:
     image: licat/chatonline-web:latest
@@ -93,9 +100,11 @@ services:
       - ${WEB_PORT}:80
     expose:
       - 80 # Web端口
+    networks:
+      chatonline_network:
 
   admin:
-    image: licat/${COMPOSE_PROJECT_NAME}-admin:latest
+    image: licat/chatonline-admin:latest
     # image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
     hostname: admin
@@ -108,36 +117,39 @@ services:
       - 80
     # ports:
     #   - 6004:80
+    networks:
+      chatonline_network:
 
-#   minio: # minio文件管理服务
-#     image: minio/minio:latest # use a remote image
-#     hostname: minio
-#     container_name: ${COMPOSE_PROJECT_NAME}_minio
-#     expose:
-#       - 9000 # minio 文件服务端口
-#       - 9001 # minio 服务的管理接口
-#     command: "server /data --console-address ':9001'"
-#     ports:
-#       - 6005:9000 # minio 文件服务端口
-#       - 6006:9001 # minio 服务的管理接口
-#     environment:
-#       - MINIO_ROOT_USER
-#       - MINIO_ROOT_PASSWORD
-#       - MINIO_SERVER_URL
-#       - MINIO_BROWSER_REDIRECT_URL
-#     healthcheck:
-#       test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
-#       interval: 30s
-#       timeout: 20s
-#       retries: 3
-#     volumes:
-#       - minio_volume:/data:rw
+  #   minio: # minio文件管理服务
+  #     image: minio/minio:latest # use a remote image
+  #     hostname: minio
+  #     container_name: ${COMPOSE_PROJECT_NAME}_minio
+  #     expose:
+  #       - 9000 # minio 文件服务端口
+  #       - 9001 # minio 服务的管理接口
+  #     command: "server /data --console-address ':9001'"
+  #     ports:
+  #       - 6005:9000 # minio 文件服务端口
+  #       - 6006:9001 # minio 服务的管理接口
+  #     environment:
+  #       - MINIO_ROOT_USER
+  #       - MINIO_ROOT_PASSWORD
+  #       - MINIO_SERVER_URL
+  #       - MINIO_BROWSER_REDIRECT_URL
+  #     healthcheck:
+  #       test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+  #       interval: 30s
+  #       timeout: 20s
+  #       retries: 3
+  #     volumes:
+  #       - minio_volume:/data:rw
+
 
   mysql: # mysql数据库
     image: mysql:latest
     hostname: mysql
     container_name: ${COMPOSE_PROJECT_NAME}_mysql
-    command: --default-authentication-plugin=mysql_native_password
+    command: --default-authentication-plugin=caching_sha2_password instead --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
     environment:
@@ -148,6 +160,8 @@ services:
       - 3306
     volumes:
       - mysql_volume:/var/lib/mysql
+    networks:
+      chatonline_network:
 
   redis: # redis
     image: redis:alpine
@@ -163,7 +177,8 @@ services:
       retries: 30
     volumes:
       - redis_volume:/data:rw
-
+    networks:
+      chatonline_network:
 
   mysql_manage: #phpmyadmin
     image: phpmyadmin:latest
@@ -188,6 +203,8 @@ services:
       - PMA_CONTROLPASS=123456
     depends_on:
       - mysql
+    networks:
+      chatonline_network:
 
   redis_manage: #phpredisadmin
     image: erikdubbelboer/phpredisadmin:latest
@@ -206,15 +223,17 @@ services:
       # - ADMIN_PASS=${REDIS_MANAGE_PASSWORD} # Redis 可视化管理用户密码
     depends_on:
       - redis
+    networks:
+      chatonline_network:
 
   # Nginx服务
   nginx:
-     image: nginx:latest
-     hostname: nginx
-     container_name: ${COMPOSE_PROJECT_NAME}_nginx
-     restart: always
-     privileged: true
-     environment:
+    image: nginx:latest
+    hostname: nginx
+    container_name: ${COMPOSE_PROJECT_NAME}_nginx
+    restart: always
+    privileged: true
+    environment:
       - TZ
       - DOMAIN
       - WEB_PORT
@@ -222,21 +241,23 @@ services:
       - IM_WS_PORT
       - NGINX_USERNAME
       - NGINX_PASSWORD
-     ports:
+    ports:
       - ${NGINX_HTTP_PORT}:80
-     volumes:
+    volumes:
       - ./nginx/templates:/etc/nginx/templates
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/ssl:/etc/nginx/ssl
       - ./nginx/www:/www
       - nginx_volume:/var/log/nginx
-     depends_on:
+    depends_on:
       - admin
       - server
       - wukongim
       - web
       - mysql_manage
       - redis_manage
+    networks:
+      chatonline_network:
 
 # 数据卷
 volumes:
@@ -247,3 +268,6 @@ volumes:
   nginx_volume:
   node_volume:
   im_volume:
+
+networks:
+  chatonline_network:
